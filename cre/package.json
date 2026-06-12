@@ -1,0 +1,18 @@
+{
+  "name": "@animatrix/cre",
+  "version": "0.1.0",
+  "description": "Cognitive Runtime Engine + Conceptual Construction Generator",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "example": "node --input-type=module < src/examples/run.ts",
+    "example:ts": "npx tsx src/examples/cause-effect-cycle.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.0"
+  }
+}
